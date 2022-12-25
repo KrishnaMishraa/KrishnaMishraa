@@ -1,0 +1,492 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    }
+#logo{
+    height: 100px;
+    width: 230px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-image: url(./harry-potter-logo-transparent-background-11.png);
+    background-size: cover;
+}
+.b-left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    width: 45px;
+    height:20px;
+    position:absolute;
+    left: 10px;
+    top: 10px;
+}
+.b-left #b1{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+.b-left #b1:hover{
+    background-color: rgba(202, 155, 67, 0.616);
+    color: #000;
+}
+.b-left #b2{
+    height: 20px;
+    width: 90px;
+    position: absolute;
+    left: 125px;
+    top: 10px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+}
+.b-left #b2:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#click button{
+    height: 40px;
+    width: 250px;
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    transform: translate(-50%,0%);
+    padding:8px;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgb(190, 96, 96);
+    border-radius: 15px;
+}
+#box1{
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 450px;
+    left: 190px;
+    background-image: url(./huflogo.jpg);
+    background-size: cover;
+    border: 2px solid burlywood;
+    border-radius: 15px;
+    transition: all ease 1s;
+}
+#box1:hover{
+   transform: scale(1.1);
+   background-image: url(./PSprout.webp);
+}
+#box2{
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 450px;
+    left: 470px;
+    background-image: url(./grylogo.jpg);
+    background-size: cover;
+    border: 2px solid brown;
+    border-radius: 15px;
+    transition: all ease 1s;
+}
+#box2:hover{
+    transform: scale(1.1);
+    background-image: url(./mcgonagal.jpg);
+}
+#box3{
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 450px;
+    right: 470px;
+    background-image: url(./ravlogo.jpg);
+    background-size: cover;
+    border: 2px solid blue;
+    border-radius: 15px;
+    transition: all ease 1s;
+}
+#box3:hover{
+    transform: scale(1.1);
+    background-image: url(./flitwick.jpg);
+}
+#box4{
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 450px;
+    right: 190px;
+    background-image: url(./slylogo.jpg);
+    background-size: cover;
+    border: 2px solid green;
+   border-radius: 15px;
+   transition: all ease 1s;
+}
+#box4:hover{
+    transform: scale(1.1);
+    background-image: url(./snape.jpg);
+}
+.box5{
+    height: 150px;
+    width: 260px;
+    background-image: url(./grplate.jpg);
+    background-size: cover;
+    border: 1px solid brown;
+    border-radius: 15px 40px 15px;
+    position:absolute;
+    top: 890px;
+    left: 40px;
+    transition: all ease 0.5s;
+}
+.box5:hover{
+    background-image: url(./raplate.jpg);
+}
+#main-p2{
+    height: 100%;
+    width: 100%;
+}
+#background-p2{
+    width: 100%;
+    height: 100%;
+}
+#movie1{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie1 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie1 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster1{
+    height: 120px;
+    width: 160px;
+    background-image: url(./philosopher_stone_poster.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster1:hover{
+    transform: scale(1.1);
+}
+#movie2{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie2 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie2 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster2{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 165px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster2:hover{
+    transform: scale(1.1);
+}
+#movie3{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 320px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie3 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie3 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster3{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Prisoner_of_azkaban_UK_poster.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 305px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster3:hover{
+    transform: scale(1.1);
+}
+#movie4{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 460px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie4 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie4 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster4{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Harry_Potter_and_the_Goblet_of_Fire_Poster.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 445px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster4:hover{
+    transform: scale(1.1);
+}
+#movie5{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 600px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie5 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie5 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster5{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Harry_Potter_and_the_Order_of_the_Phoenix_poster.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 590px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster5:hover{
+    transform: scale(1.1);
+}
+#movie6{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 740px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie6 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie6 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster6{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Harry_Potter_and_the_Half-Blood_Prince_poster.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 735px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster6:hover{
+    transform: scale(1.1);
+}
+#movie7{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 880px;
+    right: 50px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid burlywood;
+    border-radius: 10px 15px 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+#movie7 button{
+    height: 20px;
+    width: 90px;
+    border: 1px solid lightcoral;
+    border-radius: 15px;
+    position: absolute;
+    left: 10px;
+    top: 102px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+}
+#movie7 button:hover{
+    background-color: rgba(176, 196, 222, 0.384);
+    color:#000;
+}
+#main-p2 #poster7{
+    height: 120px;
+    width: 160px;
+    background-image: url(./Harry_Potter_and_the_Deathly_Hallows_–_Part_1.jpg);
+    background-size:cover ;
+    background-position: center;
+    position: absolute;
+    top: 875px;
+    left: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+#main-p2 #poster7:hover{
+    transform: scale(1.1);
+}
