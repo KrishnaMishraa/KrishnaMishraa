@@ -1,0 +1,192 @@
+/*TERABFKAUNSA*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    position: relative;
+}
+
+#logo{
+    height:40px;
+    width: 40px;
+    background-image: url(./code-s-slash-fill.png);
+    color: aliceblue;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+#main #back-video video{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+#cover{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.267);
+    position: absolute;
+    z-index: 9;
+}
+#main #box{
+    height: 400px;
+    width: 350px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: rgba(150, 148, 148, 0.63);
+    position:absolute;
+    top: 200px;
+    left: 140px;
+    z-index: 10;
+}
+#name form input{
+    height: 45px;
+    width: 300px;
+    border: 2px solid rgb(223, 222, 222);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: aliceblue;
+    Position:absolute;
+    top: 80px;
+    left: 25px;
+}
+#name form input:hover{
+    background-color: rgba(240, 248, 255, 0.596);
+    color: #000;
+}
+#password form input{
+    height: 45px;
+    width: 300px;
+    border: 2px solid rgb(223, 222, 222);
+    border-radius: 15px;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 0.432);
+    color: aliceblue;
+    Position:absolute;
+    top: 155px;
+    left: 25px;
+}
+#password form input:hover{
+    background-color: rgba(240, 248, 255, 0.596);
+    color: #000;
+}
+#box #sign{
+    height: 35px;
+    width: 65px;
+    border: 1px solid rgb(68, 68, 255);
+    border-radius: 10px;
+    background-color: rgba(68, 68, 225);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 230px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    padding: 5px;
+}
+#box #sign:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+#box #signup{
+    height: 15px;
+    width: 80px;
+    color: aliceblue;
+}
+#message{
+    height: 20px;
+    width: 200px;
+    color: aliceblue;
+    position: absolute;
+    bottom: 90px;
+    left: 50px;
+}
+#box #up{
+    height: 35px;
+    width: 65px;
+    border: 1px solid rgb(68, 68, 225);
+    border-radius: 10px;
+    background-color: rgba(68, 68, 225);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom:83px;
+    right: 75px;
+    padding: 3px;
+}
+#box #up:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+.options{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.options h5{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    border: 1px solid grey;
+    background-color: rgba(201, 201, 201, 0.733);
+    color: aliceblue;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 5px;
+}
+.options h5:hover{
+    cursor: pointer;
+    background-color: rgba(255, 252, 252, 0.911);
+    color: rgb(0, 0, 0);
+}
+#main img{
+    height: 400;
+    width: 450;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    
+}
+#main #tim{
+    height: 600;
+    width: 800;
+    position: absolute;
+    z-index: 8;
+    bottom: 0px;
+    right: 150px;
+    
+}
+#main #logo{
+    height: 60;
+    width: 60;
+    position: absolute;
+    z-index: 20;
+   top: 220px;
+   left: 290px;
+    
+}
